@@ -8,28 +8,27 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b;
+	int c;
+	int d = 0;
 
-    while (a < 10)
-    {
-        b=0;
-        while (b<10)
-        {
-            putchar('0' + a);
-            putchar('0' + b);
-            
-            if (!(a == 9 && b == 9))
-            {
-                putchar(',');
-                putchar(' ');
-            }
+	while (d < 10)
+	{
+		c = 0;
+		while (c < 10)
+		{
 
-            b++;
-        }
-        
-        a++;
-    }
-    
+			putchar('0' + d);
+			putchar('0' + c);
+
+			if (c + d != 18)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			c++;
+		}
+		d++;
+	}
+	putchar('\n');
 	return (0);
 }
