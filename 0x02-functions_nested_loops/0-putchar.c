@@ -8,7 +8,11 @@
  */
  
 int main (void){
-    if (printf("_putchar\n")){
+	char word[9] = "_putchar\n";
+	int i;
+
+        for (i = 0; i < 9; i++){
+	    putchar(word[i]);
 	
 	}
 	
