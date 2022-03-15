@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "foo.h"
+#include "_putchar"
 
 int main(void){
-	int y = foo(3);
+	int y = _putchar(3);
 	printf("%d\n", y);
 	return 0;
 
