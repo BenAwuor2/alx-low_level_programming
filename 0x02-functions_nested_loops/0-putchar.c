@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print-alphabets - Entry point
