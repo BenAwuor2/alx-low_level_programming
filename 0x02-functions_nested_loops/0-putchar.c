@@ -1,1 +1,4 @@
-int_putchar(char c);
+pwd
+ls
+cd/root
+cp school/tmp
