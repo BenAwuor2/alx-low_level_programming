@@ -1,4 +1,1 @@
-pwd
-ls
-cd/root
-cp school/tmp
+#include "main.h"
