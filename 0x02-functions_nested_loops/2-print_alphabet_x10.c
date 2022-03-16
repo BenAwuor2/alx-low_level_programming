@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_alphabet_x10
- *
+ *main - print_alphabet_x10
+ *Description - printing lowercase characters
  *Return:Nothing
  */
 void print_alphabet_x10(void)
@@ -19,5 +19,6 @@ void print_alphabet_x10(void)
 
 		_putchar('\n');
 	}
+
 
 }

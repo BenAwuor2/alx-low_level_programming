@@ -1,7 +1,10 @@
 #include "main.h"
+
 /**
- *print_sign -Determines wether an integer is positive, negative,zero
- *Return: 1 if positive, 0 if zero,-1 if negative
+ *print_sign - return 0 letter not lowercase, 1 letter lowercase
+ *
+ * @n: the int to print
+ *Return: Always 0
  */
 int print_sign(int n)
 {
@@ -9,19 +12,18 @@ int print_sign(int n)
 	{
 		_putchar('+');
 		return (1);
-	}else if (n == 0)
+	}
+
+	else if (n == 0)
 	{
 		_putchar('0');
 		return (0);
 	}
-	else if (n < 0)
-	{
-		_putchar('-');
-		return (-1);
-	}
+	
 	else
 	{
 		_putchar('-');
-		return('/');
+		return('1');
 	}
+
 }
