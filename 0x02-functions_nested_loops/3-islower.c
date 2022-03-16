@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  *main-test wether a character is a
  *lowercase letters
