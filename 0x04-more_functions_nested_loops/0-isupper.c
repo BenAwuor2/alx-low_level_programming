@@ -2,7 +2,7 @@
 /**
  * _isupper -evalue if letter is uppercase
  * @c: print int
- * Return: Always 0
+ * Return: 1 if c is uppercase, 0 otherwise.
  */
 
 itn _isupper(int c)
@@ -13,8 +13,5 @@ return (1);
 }
 
 else
-{
 return (0);
-}
-
 }
