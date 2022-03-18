@@ -2,11 +2,9 @@
 
 /**
  *mul - function that multiplies two integers.
- *
- *@a: number 1.
- *@b: number 2.
- *
- *Return: multiples two integers.
+ *@a: print int
+ *@b: print int
+ *Return: Always (0).
  */
 
 int mul(int a,int b)
