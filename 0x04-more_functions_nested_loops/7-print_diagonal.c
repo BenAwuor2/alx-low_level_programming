@@ -2,34 +2,32 @@
 
 /**
  * print_diagonal - function that draws a diagonal line on the terminal.
- *
- *@n: number.
- *
- *Return: diagonel line on the terminal.
+ *@n: print int
+ *Return: Always 0.
  */
 
 viod print_diagonal(int n)
 {
-	int files;
-	int columnas;
+	int i;
+	int b;
 
 	if (n > 0)
 	{
-		for (columnas = 0; columnas <= files; columnas++)
+		for (i = 0; i < n; i++)
 		{
-			if (files == columnas)
+			for (b = 0; b < i; b++)
 			{
-				_putchar ('\\');
-				_putchar('\n');
+				_putchar (' ');
 			}
-			else
-			{
-				_putchar(' ');
-			}
+			  _putchar(92);
+			  _putchar('\n');
+
 		}
 	}
+	
 	else
 	{
 		_putchar('\n');
 	}
+	
 }
