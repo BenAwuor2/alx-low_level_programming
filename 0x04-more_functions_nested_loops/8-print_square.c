@@ -10,20 +10,22 @@
 
 void print_square(int size)
 {
-	int files;
-	int columnas;
+	int i;
+	int k;
 
 	if (size > 0)
-		for (filas = 0; filas < size; filas++)
-		{
-			for (columnas = 0; columnas < size; columnas++)
-			{
-				_putchar ('#');
-			}
-			 _putchar ('\n');
-		}
-	else
 	{
-		 _putchar ('\n');
+		for (i = 0; i < size; i++)
+		{
+			for (k = 0; k < size; k++)
+			{
+				_putchar (35);
+			}
+			_putchar ('\n');
+		}
+		else
+		{
+			_putchar('\n');
+		}
 	}
 }
