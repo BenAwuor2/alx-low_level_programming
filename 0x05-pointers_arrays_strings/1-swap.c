@@ -7,14 +7,14 @@
  *
  *@b: number 2.
  *
- * return[D[D[D[D[R[C[C[C[C[C: 0.
+ * return: 0.
  */
 
 void swap_int(int *a, int *b)
 {
 int c;
 
-c=[D =[3~[3~ *a;
+c = *a;
 *a = *b;
 *b = c;
 }
