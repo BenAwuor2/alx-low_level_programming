@@ -1,13 +1,13 @@
 #include "main.h" 
   
- /** 
-  * cap_string - capitalizes everey word of a string 
-  * @s: string to modify 
-  * Return: the resulting string 
-  */ 
+/** 
+ * cap_string - capitalizes everey word of a string 
+ * @s: string to modify 
+ * Return: the resulting string 
+ */ 
   
- char *cap_string(char *s) 
- { 
+char *cap_string(char *s) 
+{ 
          int i, j; 
   
          char spe[13] = {' ', '\t', '\n', ',', ';', '.', 
@@ -29,4 +29,4 @@
                  } 
          } 
          return (s); 
- }
+}
